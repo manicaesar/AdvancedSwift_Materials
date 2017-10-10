@@ -41,5 +41,7 @@ func findPropertyWithName(_ propertyName: String, in object: Any) -> Any? {
 }
 
 findPropertyWithName("year", in: person)    // Should return 2020
+findPropertyWithName("name", in: person)    // Should return "Mariusz Lisiecki"
+findPropertyWithName("number", in: person)  // Should return "1234 5678 9012 3456"
 
 print("Compiled")
